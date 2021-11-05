@@ -1,1 +1,3 @@
 # background-vs-foreground-classifier-for-audio-signal-processing-
+In the current work, we created a simple algorithm that detects and classifies the audio inputs to foreground and background signal, meaning distinguishing the noise from speech.<br>
+After recording 10 audio files through MATLAB we then pre-process the signals, segment them and calculate the Energy envelope and Zero-Crossing-Rate for each of the segments. Subsequently, we construct the aforementioned algorithm using an Energy and Zero-Crossing-Rate threshold. The algorithm classifies the useful signal with the value of 1 and the noise with the value of 0.
